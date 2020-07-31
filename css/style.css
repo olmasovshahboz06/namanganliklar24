@@ -3,10 +3,11 @@
 /* 2. GENIRAL STYLES */
 /* 3. CONTAINER */
 /* 4. SITE-HEADER   */
-/* 5. EXCHANGE-RATES */
-/* 6. SEARCH-BUTTON */
-/* 7. LANGUAGE-TOGGLER */
-/* 8. TELEGRAM-SUB  */
+/* 5. LOGO */
+/* 6. EXCHANGE-RATES */
+/* 7. SEARCH-BUTTON */
+/* 8. LANGUAGE-TOGGLER */
+/* 9. TELEGRAM-SUB  */
 /* FONTS */
 @font-face {
   font-family: 'Rubik';
@@ -88,6 +89,7 @@ body{
 /* SITE-HEADER */
 .site-header{
   padding-top: 40px;
+  padding-bottom: 23px;
   border-top: 4px solid #295093;
   background-color: #f6f6f9;
 }
@@ -102,6 +104,13 @@ body{
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
+}
+/* LOGO */
+.logo{
+  border-radius: 5px;
+  padding: 4px 8px;
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
 }
 /* EXCHANGE-RATES */
 .exchange-rates{
@@ -123,6 +132,7 @@ body{
 /* SEARCH-BUTTON */
 .search-button{
   padding: 8px;   
+  margin-right: 22px;    
   border: none;
   background-color: #fff; 
 }
@@ -130,6 +140,7 @@ body{
 .language-toggler{
   padding: 10px;
   border: none;
+  margin-right: 24px;
   border-radius: 5px;
   background-color: #fff;
 }
